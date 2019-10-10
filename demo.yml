@@ -18,7 +18,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: prometheus, health, info, metrics, httptrace
+        include: prometheus, health, info, metrics, httptrace, refresh
 
   endpoint:
     health:
