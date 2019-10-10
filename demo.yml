@@ -12,8 +12,8 @@ security:
     - POWERUSER
 hystrix:
   threadpool:
-    maxPoolSize: 100
-    maxQueuSize: 99
+    maxPoolSize: 50
+    maxQueuSize: 49
 management:
   endpoints:
     web:
