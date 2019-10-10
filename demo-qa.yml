@@ -1,0 +1,25 @@
+name: ASHWIN
+age: 27
+hobbies:
+  name1: 1
+  name2: 2
+security:
+  user: username1
+  password: qapassword
+  roles:
+    - USER
+    - ADMIN
+    - POWERUSER
+hystrix:
+  threadpool:
+    maxPoolSize: 100
+    maxQueuSize: 99
+management:
+  endpoints:
+    web:
+      exposure:
+        include: prometheus, health, info, metrics 
+
+  endpoint:
+    health:
+      show-details: always
